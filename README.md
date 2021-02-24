@@ -1,8 +1,8 @@
-# Simple development  </br>
+# Simple development 
 
 ## My ready page-proof: [link](https://balzamova.github.io/wildlife/wildlife/)
 
-### Used frameworks: </br>
+### Used frameworks: 
 1. **HTML**
 2. **CSS**
 *   *flex*;
