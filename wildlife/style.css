@@ -1,0 +1,215 @@
+/* Zeroing of all auto styles */
+* { margin: 0;
+    padding: 0;
+    border: 0;
+}
+*, *:before,*:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+:focus, :active {outline: none;}
+a:focus, a:active {outline: none;}
+nav, footer, header, aside {display: block}
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input, button, textarea {font-family: inherit;}
+input::-ms-clear {display: none;}
+button {cursor: pointer;}
+button::-moz-focus-inner {padding: 0; border: 0;}
+a, a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+ul li {list-style: none;}
+img {vertical-align: top;}
+
+
+/* General properties */
+.text__links a{
+    font-family: "Open Sans";
+    font-size: 23px;
+    line-height: 60px;
+    color: #F7F7F7;
+}
+
+/* -------------------- */ 
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    width: 100%;
+    margin: 0 auto;
+    height: 0; 
+    z-index: 50;  
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header__content,
+.survival__content,
+.latest__content,
+.getnotified__content,
+.footer__content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header .container {
+    display: flex;
+    justify-content: center;
+}
+.header__content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 120px 0;
+}
+.logo {
+    display: flex;
+}
+.logo__img {
+    width: 70px;
+    height: 60px;
+    margin-right: 15px;
+}
+.logo__title {
+    width: 155px;
+    height: 60px;
+    font-family: Roboto;
+    font-size: 32px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #F7F7F7;
+}
+.header__burger {
+    display: none;
+}
+.header__list {
+    display: flex;
+    align-items: center;
+}
+.header__item {
+    margin: 0 33px;
+}
+.header__item:first-child {
+    margin-left: 0;
+}
+.header__item:last-child {
+    margin-right: 0;
+}
+.header__item:nth-child(1) a,
+.header__item:nth-child(2) a {
+    transition: all 1s ease 0s;
+}
+.header__item:nth-child(1) a:hover,
+.header__item:nth-child(2) a:hover {
+    color: #CD6326;
+    text-decoration: underline;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+.header__item:nth-child(3) img:hover {
+    cursor: pointer;
+    transform: scale(1.4);
+    transition: all 0.5s ease 0s;
+}
+.header__item:nth-child(3) img {
+    transition: all 1s ease 0s;
+}
+.header__button {
+    width: 120px;
+    height: 50px;
+    border: 2px solid #CD6326;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease 0s;
+}
+.header__button:hover {    
+    background: #CD6326;    
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+.header__button:active {
+    background: #8F5613;
+    text-decoration: none;
+    border: none;
+}
+
+.footer {
+    width: 100%;
+    background-color: #181617
+}
+.footer .container {
+    background: url(/wildlife/assets/images/footer_img.png) center no-repeat;
+}
+.footer__content {
+    margin: 0 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__content .logo {
+    margin: 150px 0;
+}
+.footer__list {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__item {
+    margin: 0 38px; 
+}
+.footer__item:first-child {
+    margin-left: 5px; 
+}
+.footer__item:last-child {
+    margin-right: 5px; 
+}
+.footer__item a {
+    transition: all 1s ease 0s;
+}
+.footer__item a:hover {
+    color: #CD6326;
+    text-decoration: underline;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 1s ease 0s;
+}
+.footer__iconslist {
+    display: flex;
+}
+.footer__iconitem {
+    margin: 0 10px;
+    padding: 3px;
+}
+.footer__iconitem:first-child {
+    margin-left: 0;
+}
+.footer__iconitem:last-child {
+    margin-right: 0;
+}
+.footer__iconitem img {
+   transition: all 0.5s ease 0s;
+}
+.footer__iconitem img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.5s ease 0s;
+}
+
