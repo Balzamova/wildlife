@@ -151,6 +151,211 @@ img {vertical-align: top;}
     border: none;
 }
 
+.content {
+    flex: 1 1 auto;    
+}
+.survival {    
+    width: 100%;
+    background-color: #02160b
+}
+.survival .container {
+    background: url(/wildlife/assets/images/header_img.png) center no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.survival__content {
+    margin: 200px 0 240px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.survival__title {
+    font-family: "Open Sans";
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 2px;
+    color: #CD6326;
+}
+.survival__info {
+    max-width: 274px;
+    margin: 50px auto;
+    font-family: "Open Sans";
+    font-size: 18px;
+    line-height: 27px;
+    color: #F7F7F7;
+}
+.survival__button {
+    width: 160px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    background: #CD6326;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px; 
+    font-family: Roboto;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+    transition: all 0.5s ease 0s;
+}
+.survival__button:hover {
+    background: #E39128;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+.survival__button:active {
+    background: #8F5613; 
+}
+
+.latest,
+.getnotified {
+    width: 100%;
+    background-color: #cccccc
+}
+
+.latest__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.latest__title {
+    font-family: "Open Sans";
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #333333;
+    margin: 120px auto 20px;
+}
+.latest__subtitle {
+    font-family: "Open Sans";
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #666666;
+}
+.latest__slider-block {
+    display: flex;
+    align-items: center;
+    margin: 120px auto;
+}
+.latest__arrow {
+    margin: 15px;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    border: 5px solid #666666;
+    border-bottom: none;
+    border-left: none; 
+    transition: all 1s ease 0s;  
+}
+.left__arrow {
+    transform: rotate(-135deg);
+}
+.right__arrow {
+    transform: rotate(45deg);
+}
+.latest__arrow:hover {
+    cursor: pointer;
+    border: 5px solid #E39128;
+    border-bottom: none;
+    border-left: none; 
+    transition: all 0.5s ease 0s;
+}
+.latest__arrow:active {
+    border: 5px solid #CD6326;
+    border-bottom: none;
+    border-left: none;
+}
+.latest__sliders {
+    display: flex;
+    margin: 0;
+}
+.latest__slider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+    position: relative;
+}
+.latest__slider-img {
+    max-width: 300px;
+    object-fit: cover;
+}
+.latest__slider-title {
+    position: absolute;    
+    bottom: 77px;
+    font-family: "Open Sans";
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #F7F7F7;
+}
+.latest__slider-subtitle {
+    position: absolute;
+    bottom: 40px;
+    font-family: "Open Sans";
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+}
+
+.getnotified__content {
+    display: flex;
+    flex-direction: column;
+}
+.getnotified__title {
+    font-family: Open Sans;
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+    margin: 120px auto 60px;
+}
+.getnotified__form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 240px;
+}
+.getnotified__input {
+    width: 540px;
+    height: 60px;
+    border: 1px solid #666666;
+    background: #CCCCCC;
+    padding: 15px;
+    font-family: Roboto;
+    font-size: 23px;
+    line-height: 27px;
+    color: #666666;
+}
+.getnotified__button {
+    width: 120px;
+    height: 60px;
+    background: #CD6326;
+    border: 1px solid #CD6326;
+    border-radius: 0px 5px 5px 0px;
+    font-family: Roboto;
+    font-size: 23px;
+    line-height: 27px;
+    color: #F7F7F7;
+}
+.getnotified__button:hover {
+    background: #E39128;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+.getnotified__button:active {
+    background: #8F5613; 
+    border: none;
+}
+
 .footer {
     width: 100%;
     background-color: #181617
