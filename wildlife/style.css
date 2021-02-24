@@ -159,7 +159,7 @@ img {vertical-align: top;}
     background-color: #02160b
 }
 .survival .container {
-    background: url(/wildlife/assets/images/header_img.png) center no-repeat;
+    background: url(./assets/images/header_img.png) center no-repeat;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -361,7 +361,7 @@ img {vertical-align: top;}
     background-color: #181617
 }
 .footer .container {
-    background: url(/wildlife/assets/images/footer_img.png) center no-repeat;
+    background: url(./assets/images/footer_img.png) center no-repeat;
 }
 .footer__content {
     margin: 0 120px;
@@ -521,7 +521,7 @@ img {vertical-align: top;}
         margin: 0 10px;
     }
     .survival .container {
-        background: url(/wildlife/assets/images/header_img.png) center no-repeat;
+        background: url(./assets/images/header_img.png) center no-repeat;
         object-fit: cover;
         background-size: 126%;
     }
@@ -679,7 +679,7 @@ img {vertical-align: top;}
     }
 
     .survival .container {
-        background: url(/wildlife/assets/images/header_img.png) center no-repeat;
+        background: url(./assets/images/header_img.png) center no-repeat;
         object-fit: cover;
     }
     .survival__content {
@@ -745,7 +745,7 @@ img {vertical-align: top;}
         height: 50px;
     }
     .footer .container {
-        background: url(/wildlife/assets/images/footer_img.png) center no-repeat;
+        background: url(./assets/images/footer_img.png) center no-repeat;
         object-fit: cover;        
     }
     .footer__content {
