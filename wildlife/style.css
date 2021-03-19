@@ -276,7 +276,6 @@ img {vertical-align: top;}
     border-left: none;
 }
 .latest__sliders {
-    height: 100%;
     width: 966px;
     margin: 0;
     display: flex;  
