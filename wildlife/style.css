@@ -315,8 +315,8 @@ img {vertical-align: top;}
 }
 
 .latest__slider-img {
-    max-width: 300px;
-    height: 100%;
+    width: 300px;
+    height: 360px;
     object-fit: cover;
 }
 .latest__slider-title {
