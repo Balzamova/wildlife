@@ -291,9 +291,6 @@ img {vertical-align: top;}
     align-items: center;
     position: relative;
 }
-.latest__slider:hover {
-    outline: 3px solid #CD6326;
-}
 
 .latest__slider:nth-of-type(1) {
     transform: translateX(-160%);
