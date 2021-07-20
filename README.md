@@ -1,6 +1,6 @@
-# Simple development  
+# Layout single page  
 
-## My ready page-proof: [link](https://balzamova.github.io/wildlife/wildlife/)
+## Project: [link](https://balzamova.github.io/wildlife/wildlife/)
 
 ### Used frameworks: 
 1. **HTML**
